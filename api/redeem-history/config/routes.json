@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/redeem-histories",
+      "handler": "redeem-history.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/redeem-histories/count",
+      "handler": "redeem-history.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/redeem-histories/:id",
+      "handler": "redeem-history.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/redeem-histories",
+      "handler": "redeem-history.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/redeem-histories/:id",
+      "handler": "redeem-history.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/redeem-histories/:id",
+      "handler": "redeem-history.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
