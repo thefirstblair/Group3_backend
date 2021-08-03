@@ -16,12 +16,18 @@
       "type": "string",
       "required": true
     },
-    "cost": {
+    "points": {
       "type": "integer"
     },
-    "redeem_histories": {
+    "amount": {
+      "type": "integer"
+    },
+    "picture": {
+      "type": "richtext"
+    },
+    "histories": {
       "via": "reward",
-      "collection": "redeem-history"
+      "collection": "history"
     }
   }
 }

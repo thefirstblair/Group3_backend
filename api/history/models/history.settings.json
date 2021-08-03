@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "history",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reward": {
+      "model": "reward",
+      "via": "histories"
+    },
+    "users_permissions_user": {
+      "via": "histories",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "detail": {
+      "type": "enumeration",
+      "enum": [
+        "loss",
+        "earn"
+      ],
+      "required": true
+    },
+    "amount": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

@@ -19,7 +19,6 @@
     },
     "email": {
       "type": "email",
-      "minLength": 6,
       "configurable": false,
       "required": true
     },
@@ -59,9 +58,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "redeem_histories": {
+    "histories": {
       "via": "users_permissions_user",
-      "collection": "redeem-history"
+      "collection": "history"
+    },
+    "score": {
+      "type": "float",
+      "default": 0
     }
   }
 }
