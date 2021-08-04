@@ -17,17 +17,26 @@
       "required": true
     },
     "points": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "amount": {
-      "type": "integer"
-    },
-    "picture": {
-      "type": "richtext"
+      "type": "integer",
+      "required": true
     },
     "histories": {
       "via": "reward",
       "collection": "history"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

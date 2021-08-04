@@ -58,13 +58,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "histories": {
-      "via": "users_permissions_user",
-      "collection": "history"
-    },
     "score": {
       "type": "float",
       "default": 0
+    },
+    "histories": {
+      "via": "users",
+      "collection": "history"
     }
   }
 }

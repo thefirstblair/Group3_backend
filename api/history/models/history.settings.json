@@ -13,13 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "reward": {
-      "model": "reward",
-      "via": "histories"
-    },
-    "users_permissions_user": {
       "via": "histories",
+      "model": "reward"
+    },
+    "users": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "histories"
     },
     "detail": {
       "type": "enumeration",
