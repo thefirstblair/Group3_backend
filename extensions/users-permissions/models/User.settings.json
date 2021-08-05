@@ -60,11 +60,15 @@
     },
     "score": {
       "type": "float",
-      "default": 0
+      "default": 0,
+      "min": 0
     },
     "histories": {
       "via": "users",
       "collection": "history"
+    },
+    "adj_speed": {
+      "type": "float"
     }
   }
 }

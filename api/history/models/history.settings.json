@@ -17,21 +17,24 @@
       "model": "reward"
     },
     "users": {
+      "via": "histories",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "histories"
+      "model": "user"
     },
     "detail": {
       "type": "enumeration",
       "enum": [
-        "loss",
-        "earn"
+        "LossPoints",
+        "EarnPoints"
       ],
       "required": true
     },
     "amount": {
       "type": "float",
       "required": true
+    },
+    "time_stamp": {
+      "type": "datetime"
     }
   }
 }

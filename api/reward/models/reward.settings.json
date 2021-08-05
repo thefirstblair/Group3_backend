@@ -22,7 +22,8 @@
     },
     "amount": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "min": 0
     },
     "histories": {
       "via": "reward",
