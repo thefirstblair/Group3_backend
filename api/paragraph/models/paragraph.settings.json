@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paragraphs",
+  "info": {
+    "name": "paragraph",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "word": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    }
+  }
+}
