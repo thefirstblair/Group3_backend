@@ -7,3 +7,9 @@ A quick description of your strapi application
 ```
 npm install
 ```
+
+# Run
+
+```
+npm run develop
+```
