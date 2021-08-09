@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "POST",
+      "path": "/rewards/trade/:id",
+      "handler": "reward.trade",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
