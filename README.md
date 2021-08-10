@@ -23,13 +23,13 @@ npm run develop
 * แอดมินสามารถดู Leaderboard การได้แต้ม ใช้แต้มของผู้เล่นได้ โดยมีอันดับจากมากไปน้อย
 * แอดมินสามารถจัดการกับของรางวัลได้ที่ Reward Manager โดยสามารถเพิ่ม/ลด/แก้ไข ของรางวัลได้ เป็นต้น
 
-# username
+## username
 
-## Admin 
-username : admin
-password : 123456
+###### Admin 
+* username : admin
+* password : 123456
 
-## normal user
+###### normal user
 * username : user1
 * password : 123456
 
