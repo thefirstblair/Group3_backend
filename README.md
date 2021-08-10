@@ -29,9 +29,16 @@ npm run develop
 * username : admin
 * password : 123456
 
-###### normal user
-* username : user1
+## username
+
+###### Admin 
+* username : admin
 * password : 123456
 
+###### normal user
+* username : user1
+* password : 11111111
+
 * username : usere8
-* password : 123456
+* password : 11111111
+
