@@ -22,4 +22,16 @@ npm run develop
 * Admin สามารถล็อคอินเข้าได้โดยมีไอดีที่จำกัดไว้
 * แอดมินสามารถดู Leaderboard การได้แต้ม ใช้แต้มของผู้เล่นได้ โดยมีอันดับจากมากไปน้อย
 * แอดมินสามารถจัดการกับของรางวัลได้ที่ Reward Manager โดยสามารถเพิ่ม/ลด/แก้ไข ของรางวัลได้ เป็นต้น
- 
+
+## username
+
+# Admin 
+username : admin
+password : 123456
+
+# normal user
+username : user1
+password : 123456
+
+username : usere8
+password : 123456
