@@ -30,8 +30,8 @@ username : admin
 password : 123456
 
 ## normal user
-*username : user1
-*password : 123456
+* username : user1
+* password : 123456
 
-*username : usere8
-*password : 123456
+* username : usere8
+* password : 123456
