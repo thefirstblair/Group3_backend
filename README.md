@@ -39,6 +39,6 @@ npm run develop
 * username : user1
 * password : 11111111
 
-* username : usere8
+* username : user8
 * password : 11111111
 
